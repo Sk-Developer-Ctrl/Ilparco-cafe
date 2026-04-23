@@ -104,7 +104,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Sikander
+            SM Developer
           </a>
         </p>
       </div>

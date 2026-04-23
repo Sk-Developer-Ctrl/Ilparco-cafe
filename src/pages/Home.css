@@ -1,0 +1,45 @@
+.home-section-wrapper {
+  padding: 80px 0;
+}
+
+.order-now-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 60px;
+}
+
+.order-now-btn {
+  display: inline-block;
+  padding: 18px 45px;
+  background: var(--accent-gold);
+  color: var(--bg-color);
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition-smooth);
+  border: 2px solid transparent;
+}
+
+.order-now-btn:hover {
+  background: transparent;
+  color: var(--accent-gold);
+  border-color: var(--accent-gold);
+}
+
+@media (max-width: 768px) {
+  .home-section-wrapper {
+    padding: 40px 0;
+  }
+
+  .order-now-container {
+    margin: 20px 0 40px;
+  }
+
+  .order-now-btn {
+    padding: 14px 30px;
+    font-size: 0.9rem;
+  }
+}

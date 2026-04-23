@@ -98,7 +98,14 @@ const Footer = () => {
       <div className="footer__bottom container">
         <p>
           &copy; {new Date().getFullYear()} IL PARCO Specialty Coffee & Café.
-          All rights reserved.
+          All rights reserved. Developed by{" "}
+          <a
+            href="https://sikander-dev.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sikander
+          </a>
         </p>
       </div>
     </footer>
